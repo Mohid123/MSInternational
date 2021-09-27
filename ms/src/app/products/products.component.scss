@@ -1,0 +1,61 @@
+@import "~swiper/swiper";
+@import "~swiper/components/effect-coverflow/effect-coverflow";
+@import "~swiper/components/pagination/pagination";
+@import 'https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap';
+
+.swiper-container {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: ivory;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 380px;
+  height: 340px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  font-family: 'Dosis'!important;
+  font-weight: 800!important;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+.heading {
+  width: 100%;
+  background-color: #ff5252;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.para {
+  font-family: 'Dosis'!important;
+  font-weight: 500!important;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.paragraph {
+  width: 100%;
+  background-color: #ff8a80;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.desc {
+  text-align: center;
+  font-family: 'Montserrat'!important;
+  font-weight: 600!important;
+}

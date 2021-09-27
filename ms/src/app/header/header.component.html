@@ -1,0 +1,24 @@
+<div class="navbar-fixed">
+    <nav class="amber lighten-1">
+      <div class="nav-wrapper">
+        <a class="brand-logo" routerLink="/home"><img style="z-index: 1200;" src="assets/logo.png" width="270" height="110"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars fa-3x"></i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="text" routerLink="/home" routerLinkActive="active">Home</a></li>
+          <li><a class="text" routerLink="/about" routerLinkActive="active">About Us</a></li>
+          <li><a class="text" href="#">Our Products</a></li>
+          <li><a class="text .dropdown_menu-6" href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+</div>
+<div class="amber lighten-3" style="z-index: 996; position: fixed; height: 50px; width: 100%; overflow: hidden;"></div>
+
+<ul class="sidenav" id="mobile-demo">
+	<a class="brand-logo"><img style="z-index: 1200;" src="assets/logo.png" width="200" height="80"></a>
+  <div class="divider"></div>
+    <li><a class="mobil" routerLink="/home" routerLinkActive="is-active">Home <i class="fa fa-home fa-lg"></i></a></li>
+    <li><a class="mobil" routerLink="/about" routerLinkActive="is-active">About Us <i class="fa fa-info-circle fa-lg"></i></a></li>
+    <li><a class="mobil">Our Products <i class="fa fa-shopping-cart fa-lg"></i></a></li>
+    <li><a class="mobil">Contacts <i class="fa fa-phone fa-lg"></i></a></li>
+</ul>

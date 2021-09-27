@@ -1,0 +1,48 @@
+.page-footer {
+	font-family: 'Montserrat';
+}
+
+.white-text {
+	font-family: 'Montserrat';
+}
+
+li{
+	list-style: outside none none;
+    margin: 10px 0;
+    padding: 0;
+    width: 38px;
+}
+
+li a{
+	display: block;
+    padding: 4px;
+    position: relative;
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+    font-size:12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    bottom: 0;
+    left: 47px;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 0;
+
+    /* CSS3 Transition: */
+	-webkit-transition: 0.50s;
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.50s;
+	transition: 0.50s;  
+}
+a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+a:hover{text-decoration:none;}
+a span{
+	background-color:#fff;
+	color:#3d4f0c;
+}

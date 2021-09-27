@@ -1,0 +1,109 @@
+.mission {
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 30px;
+	padding-bottom: 30px;
+	cursor: pointer;
+	z-index: 3;
+	font-weight: 500;
+}
+
+.desc {
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-size: 1.1em; 
+	padding-top: 30px;
+	padding-bottom: 30px;
+	cursor: pointer;
+	z-index: 3;
+	font-weight: 500;
+}
+
+.image {
+	width: 10%;
+}
+
+.image:hover {
+	transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(255, 255, 255, 0.85);
+    transition: 0.3s;
+}
+
+.partner {
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 30px;
+	cursor: pointer;
+	z-index: 3;
+	font-weight: 500;
+}
+
+.best {
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding-top: 30px;
+	padding-bottom: 30px;
+	cursor: pointer;
+	z-index: 3;
+	font-weight: 500;
+}
+
+.part {
+	background-color: #039be5;
+	padding-bottom: 50px;
+}
+
+.logo {
+	width: 23%;
+	cursor: pointer;
+}
+
+.logo:hover {
+	transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+.logoA {
+	width: 15%;
+	cursor: pointer;
+}
+
+.logoB {
+	width: 23%;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+
+.logoA:hover {
+	transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+.logoB:hover {
+	transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+.learn {
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat';
+	cursor: pointer;
+	z-index: 3;
+	font-weight: 500;
+	font-size: 0.8em;
+	margin-top: 70px;
+}
+
+.team {
+	background-color: #546e7a;
+}

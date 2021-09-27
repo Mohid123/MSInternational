@@ -1,0 +1,39 @@
+<app-header></app-header>
+<br>
+<br>
+<mat-carousel
+  timings="500ms ease-out"
+  [autoplay]="true"
+  [interval]="3000"
+  color="accent"
+  maxWidth="auto"
+  [maintainAspectRatio]= "true"
+  [proportion]="78"
+  [slides]="4"
+  [loop]="true"
+  [hideArrows]="false"
+  [hideIndicators]="false"
+  [useKeyboard]="true"
+  [useMouseWheel]="false"
+  orientation="ltr"
+>
+  <mat-carousel-slide
+    *ngFor="let slide of slides; let i = index"
+    [image]="slide.image"
+    [hideOverlay]="false" style="z-index: -1;">
+    <div *ngFor="let text of slides;" style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center">
+      <!-- < <h1 style="color:white; padding: 10px; font-weight: 500; font-family: Dosis; font-size: 3.6vw;">{{slide.text}}</h1>> -->
+    </div>
+  </mat-carousel-slide>
+</mat-carousel>
+
+<div class="divider"></div>
+
+<app-products></app-products>
+<div class="heading" fxLayout="row" fxLayoutAlign="center center">
+  <h1 class="head">We Ship From Around The World!</h1>
+</div>
+<br>
+<div id="chartdiv"></div>
+<br>
+<app-footer></app-footer>

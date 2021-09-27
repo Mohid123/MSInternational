@@ -1,0 +1,44 @@
+<div class="heading" fxLayout="row" fxLayoutAlign="center center">
+  <h1 class="head">Our Products</h1>
+</div>
+
+<div class="para" fxLayout="row" fxLayoutAlign="center center">
+  <p class="paragraph">We bring the Finest Products from all over the world straight to your dining table.</p>
+</div>
+
+<div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+<swiper
+    [effect]="'coverflow'"
+    [grabCursor]="true"
+    [centeredSlides]="true"
+    [slidesPerView]="'auto'"
+    [coverflowEffect]="{
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true
+    }"
+    [pagination]="true"
+    class="mySwiper"
+  >
+    <ng-template swiperSlide>
+      <img src="assets/dog.png">
+      </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/greener.png">
+      <p class="desc">Greener&reg; Organic Broken Pineapple</p>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/pine.png"></ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/whip.png">
+    </ng-template>
+    <!-- <ng-template swiperSlide>
+      <img src="assets/juice.png">
+    </ng-template> -->
+  </swiper>
+</div>
+<br>
+<br>
+<br>
